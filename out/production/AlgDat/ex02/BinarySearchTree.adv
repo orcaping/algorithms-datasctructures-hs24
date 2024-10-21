@@ -1,0 +1,449 @@
+{
+  "snapshots": [
+    {
+      "snapshotId": 1,
+      "snapshotDescription": "\ninsert(1,Str1)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "1 / Str1"
+            }
+          ],
+          "relations": [],
+          "flags": [],
+          "metaData": {
+            "max-right-tree-height": "4",
+            "max-left-tree-height": "0"
+          },
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 2,
+      "snapshotDescription": "\ninsert(3,Str3)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "1 / Str1"
+            },
+            {
+              "id": 3,
+              "content": "3 / Str3"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [],
+          "metaData": {
+            "max-right-tree-height": "4",
+            "max-left-tree-height": "0"
+          },
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 3,
+      "snapshotDescription": "\ninsert(2,Str2)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "1 / Str1"
+            },
+            {
+              "id": 3,
+              "content": "3 / Str3"
+            },
+            {
+              "id": 6,
+              "content": "2 / Str2"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 3,
+              "targetElementId": 6,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [],
+          "metaData": {
+            "max-right-tree-height": "4",
+            "max-left-tree-height": "0"
+          },
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 4,
+      "snapshotDescription": "\ninsert(8,Str8)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "1 / Str1"
+            },
+            {
+              "id": 3,
+              "content": "3 / Str3"
+            },
+            {
+              "id": 6,
+              "content": "2 / Str2"
+            },
+            {
+              "id": 7,
+              "content": "8 / Str8"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 3,
+              "targetElementId": 6,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 3,
+              "targetElementId": 7,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [],
+          "metaData": {
+            "max-right-tree-height": "4",
+            "max-left-tree-height": "0"
+          },
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 5,
+      "snapshotDescription": "\ninsert(9,Str9)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "1 / Str1"
+            },
+            {
+              "id": 3,
+              "content": "3 / Str3"
+            },
+            {
+              "id": 6,
+              "content": "2 / Str2"
+            },
+            {
+              "id": 7,
+              "content": "8 / Str8"
+            },
+            {
+              "id": 15,
+              "content": "9 / Str9"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 3,
+              "targetElementId": 6,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 3,
+              "targetElementId": 7,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 7,
+              "targetElementId": 15,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [],
+          "metaData": {
+            "max-right-tree-height": "4",
+            "max-left-tree-height": "0"
+          },
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 6,
+      "snapshotDescription": "\ninsert(6,Str6)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "1 / Str1"
+            },
+            {
+              "id": 3,
+              "content": "3 / Str3"
+            },
+            {
+              "id": 6,
+              "content": "2 / Str2"
+            },
+            {
+              "id": 7,
+              "content": "8 / Str8"
+            },
+            {
+              "id": 14,
+              "content": "6 / Str6"
+            },
+            {
+              "id": 15,
+              "content": "9 / Str9"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 3,
+              "targetElementId": 6,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 3,
+              "targetElementId": 7,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 7,
+              "targetElementId": 14,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 7,
+              "targetElementId": 15,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [],
+          "metaData": {
+            "max-right-tree-height": "4",
+            "max-left-tree-height": "0"
+          },
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 7,
+      "snapshotDescription": "\ninsert(5,Str5)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "1 / Str1"
+            },
+            {
+              "id": 3,
+              "content": "3 / Str3"
+            },
+            {
+              "id": 6,
+              "content": "2 / Str2"
+            },
+            {
+              "id": 7,
+              "content": "8 / Str8"
+            },
+            {
+              "id": 14,
+              "content": "6 / Str6"
+            },
+            {
+              "id": 28,
+              "content": "5 / Str5"
+            },
+            {
+              "id": 15,
+              "content": "9 / Str9"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 3,
+              "targetElementId": 6,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 3,
+              "targetElementId": 7,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 7,
+              "targetElementId": 14,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 14,
+              "targetElementId": 28,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 7,
+              "targetElementId": 15,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [],
+          "metaData": {
+            "max-right-tree-height": "4",
+            "max-left-tree-height": "0"
+          },
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 8,
+      "snapshotDescription": "\nremove([3/Str3])",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "1 / Str1"
+            },
+            {
+              "id": 3,
+              "content": "5 / Str5"
+            },
+            {
+              "id": 6,
+              "content": "2 / Str2"
+            },
+            {
+              "id": 7,
+              "content": "8 / Str8"
+            },
+            {
+              "id": 14,
+              "content": "6 / Str6"
+            },
+            {
+              "id": 15,
+              "content": "9 / Str9"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 3,
+              "targetElementId": 6,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 3,
+              "targetElementId": 7,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 7,
+              "targetElementId": 14,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 7,
+              "targetElementId": 15,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [],
+          "metaData": {
+            "max-right-tree-height": "4",
+            "max-left-tree-height": "0"
+          },
+          "position": "DEFAULT"
+        }
+      ]
+    }
+  ],
+  "sessionId": 1696179613703,
+  "sessionName": "Loeschen (IV/IV)"
+}
